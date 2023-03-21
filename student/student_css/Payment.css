@@ -1,0 +1,60 @@
+/* Set default font and box sizing */
+html {
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+/* Set styles for form container */
+#payment-form {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Set styles for form labels */
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+/* Set styles for form inputs */
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+/* Set styles for submit button */
+button[type="submit"] {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  border: none;
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+button[type="submit"]:hover {
+  background-color: #0069d9;
+}
+
+/* Set styles for error messages */
+#card-errors {
+  color: #dc3545;
+  margin-top: 10px;
+  font-size: 14px;
+}

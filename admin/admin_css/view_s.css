@@ -1,0 +1,70 @@
+.table-wrapper {
+    overflow-x: auto;
+  }
+  
+  .responsive-table {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+  }
+  
+  .responsive-table th,
+  .responsive-table td {
+    padding: 12px;
+    text-align: left;
+    vertical-align: middle;
+    border-bottom: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+  }
+  
+  .responsive-table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+    border-top: 1px solid #ddd;
+  }
+  
+  .responsive-table td:last-child {
+    border-right: none;
+  }
+  
+  .responsive-table td:before {
+    content: attr(data-label);
+    float: left;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+
+  .btn{
+  background-color: red;
+  color: white;
+  padding: 8px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn:hover{
+  background-color: rgb(223, 107, 107);
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+
+a:hover{
+  color: black;
+}
+
+h3{
+  color: rgb(82, 255, 47);
+}
+
+.edit{
+  background-color: green;
+}
+.edit:hover{
+  background-color: rgb(57, 102, 57);
+}

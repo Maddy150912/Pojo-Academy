@@ -1,0 +1,42 @@
+#login{
+  margin-right: 15px;
+}
+.main_img {
+  width: 98.9vw;
+  height: 80vh;
+}
+.img_text {
+  position: absolute;
+  top: 45%;
+  left: 40%;
+  font-size: x-large;
+  font-weight: bolder;
+  color: white;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+.wel_img {
+  width: 100%;
+  height: 250px;
+}
+.container {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+.courses {
+  display: flex;
+  flex-wrap: wrap;
+}
+.card {
+  width: 18rem;
+  margin: auto;
+  margin-bottom: 25px;
+}
+footer {
+  height: 10%;
+  width: 100%;
+  padding: 4px;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
