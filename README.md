@@ -27,8 +27,7 @@ This is a web-based academy admission system where students can apply for admiss
 To get started with the project, follow these steps:
 
   * Clone the repository to your local machine
-  * Import the SQL file located in the database folder into your MySQL database
-  * Update the database credentials in the config.php file located in the includes folder
+  * Import the SQL file located in the DB-file folder into your MySQL database
   * Upload the files to your web server
   * Open the website in your browser and start using the system
 
